@@ -12,7 +12,7 @@ locality=New_York
 organization=atc
 organizationalunit=tower
 commonname=emam
-email=admin@hidessh.com
+email=twr.buz@gmail.com
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/stunnel/stunnel.key -out /etc/stunnel/stunnel.crt -subj "/C=$country/ST=$state/L=$locality/O=$organization/OU=$organizationalunit/CN=$commonname/emailAddress=$email"
 
 # Create a stunnel configuration file
