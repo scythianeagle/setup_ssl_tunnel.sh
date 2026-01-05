@@ -23,7 +23,7 @@ key = /etc/stunnel/stunnel.key
 
 [ssh]
 accept = 444
-connect = 127.0.0.1:1013
+connect = 127.0.0.1:1899
 EOT
 
 # Enable stunnel service
